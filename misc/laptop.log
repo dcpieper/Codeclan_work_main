@@ -1,0 +1,589 @@
+/Applications/Xcode.app/Contents/Developer
+
+Installing Homebrew ...
+==> Checking for `sudo` access (which may request your password)...
+==> This script will install:
+/opt/homebrew/bin/brew
+/opt/homebrew/share/doc/homebrew
+/opt/homebrew/share/man/man1/brew.1
+/opt/homebrew/share/zsh/site-functions/_brew
+/opt/homebrew/etc/bash_completion.d/brew
+/opt/homebrew
+==> The following new directories will be created:
+/opt/homebrew/bin
+/opt/homebrew/etc
+/opt/homebrew/include
+/opt/homebrew/lib
+/opt/homebrew/sbin
+/opt/homebrew/share
+/opt/homebrew/var
+/opt/homebrew/opt
+/opt/homebrew/share/zsh
+/opt/homebrew/share/zsh/site-functions
+/opt/homebrew/var/homebrew
+/opt/homebrew/var/homebrew/linked
+/opt/homebrew/Cellar
+/opt/homebrew/Caskroom
+/opt/homebrew/Frameworks
+==> The Xcode Command Line Tools will be installed.
+
+Press RETURN/ENTER to continue or any other key to abort:
+==> /usr/bin/sudo /usr/bin/install -d -o root -g wheel -m 0755 /opt/homebrew
+==> /usr/bin/sudo /bin/mkdir -p /opt/homebrew/bin /opt/homebrew/etc /opt/homebrew/include /opt/homebrew/lib /opt/homebrew/sbin /opt/homebrew/share /opt/homebrew/var /opt/homebrew/opt /opt/homebrew/share/zsh /opt/homebrew/share/zsh/site-functions /opt/homebrew/var/homebrew /opt/homebrew/var/homebrew/linked /opt/homebrew/Cellar /opt/homebrew/Caskroom /opt/homebrew/Frameworks
+==> /usr/bin/sudo /bin/chmod ug=rwx /opt/homebrew/bin /opt/homebrew/etc /opt/homebrew/include /opt/homebrew/lib /opt/homebrew/sbin /opt/homebrew/share /opt/homebrew/var /opt/homebrew/opt /opt/homebrew/share/zsh /opt/homebrew/share/zsh/site-functions /opt/homebrew/var/homebrew /opt/homebrew/var/homebrew/linked /opt/homebrew/Cellar /opt/homebrew/Caskroom /opt/homebrew/Frameworks
+==> /usr/bin/sudo /bin/chmod go-w /opt/homebrew/share/zsh /opt/homebrew/share/zsh/site-functions
+==> /usr/bin/sudo /usr/sbin/chown danielp /opt/homebrew/bin /opt/homebrew/etc /opt/homebrew/include /opt/homebrew/lib /opt/homebrew/sbin /opt/homebrew/share /opt/homebrew/var /opt/homebrew/opt /opt/homebrew/share/zsh /opt/homebrew/share/zsh/site-functions /opt/homebrew/var/homebrew /opt/homebrew/var/homebrew/linked /opt/homebrew/Cellar /opt/homebrew/Caskroom /opt/homebrew/Frameworks
+==> /usr/bin/sudo /usr/bin/chgrp admin /opt/homebrew/bin /opt/homebrew/etc /opt/homebrew/include /opt/homebrew/lib /opt/homebrew/sbin /opt/homebrew/share /opt/homebrew/var /opt/homebrew/opt /opt/homebrew/share/zsh /opt/homebrew/share/zsh/site-functions /opt/homebrew/var/homebrew /opt/homebrew/var/homebrew/linked /opt/homebrew/Cellar /opt/homebrew/Caskroom /opt/homebrew/Frameworks
+==> /usr/bin/sudo /usr/sbin/chown -R danielp:admin /opt/homebrew
+==> /usr/bin/sudo /bin/mkdir -p /Users/danielp/Library/Caches/Homebrew
+==> /usr/bin/sudo /bin/chmod g+rwx /Users/danielp/Library/Caches/Homebrew
+==> /usr/bin/sudo /usr/sbin/chown -R danielp /Users/danielp/Library/Caches/Homebrew
+==> Searching online for the Command Line Tools
+==> /usr/bin/sudo /usr/bin/touch /tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress
+==> Installing Command Line Tools for Xcode-14.2
+==> /usr/bin/sudo /usr/sbin/softwareupdate -i Command\ Line\ Tools\ for\ Xcode-14.2
+Software Update Tool
+
+Finding available software
+
+Downloading Command Line Tools for Xcode
+Downloaded Command Line Tools for Xcode
+Installing Command Line Tools for Xcode
+Done with Command Line Tools for Xcode
+Done.
+==> /usr/bin/sudo /usr/bin/xcode-select --switch /Library/Developer/CommandLineTools
+==> /usr/bin/sudo /bin/rm -f /tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress
+==> Downloading and installing Homebrew...
+From https://github.com/Homebrew/brew
+ * [new branch]          less-agressive-core-tap -> origin/less-agressive-core-tap
+ * [new branch]          master                  -> origin/master
+ * [new branch]          setup-homebrew-test     -> origin/setup-homebrew-test
+ * [new tag]             0.1                     -> 0.1
+ * [new tag]             0.2                     -> 0.2
+ * [new tag]             0.3                     -> 0.3
+ * [new tag]             0.4                     -> 0.4
+ * [new tag]             0.5                     -> 0.5
+ * [new tag]             0.6                     -> 0.6
+ * [new tag]             0.7                     -> 0.7
+ * [new tag]             0.7.1                   -> 0.7.1
+ * [new tag]             0.8                     -> 0.8
+ * [new tag]             0.8.1                   -> 0.8.1
+ * [new tag]             0.9                     -> 0.9
+ * [new tag]             0.9.1                   -> 0.9.1
+ * [new tag]             0.9.2                   -> 0.9.2
+ * [new tag]             0.9.3                   -> 0.9.3
+ * [new tag]             0.9.4                   -> 0.9.4
+ * [new tag]             0.9.5                   -> 0.9.5
+ * [new tag]             0.9.8                   -> 0.9.8
+ * [new tag]             0.9.9                   -> 0.9.9
+ * [new tag]             1.0.0                   -> 1.0.0
+ * [new tag]             1.0.1                   -> 1.0.1
+ * [new tag]             1.0.2                   -> 1.0.2
+ * [new tag]             1.0.3                   -> 1.0.3
+ * [new tag]             1.0.4                   -> 1.0.4
+ * [new tag]             1.0.5                   -> 1.0.5
+ * [new tag]             1.0.6                   -> 1.0.6
+ * [new tag]             1.0.7                   -> 1.0.7
+ * [new tag]             1.0.8                   -> 1.0.8
+ * [new tag]             1.0.9                   -> 1.0.9
+ * [new tag]             1.1.0                   -> 1.1.0
+ * [new tag]             1.1.1                   -> 1.1.1
+ * [new tag]             1.1.10                  -> 1.1.10
+ * [new tag]             1.1.11                  -> 1.1.11
+ * [new tag]             1.1.12                  -> 1.1.12
+ * [new tag]             1.1.13                  -> 1.1.13
+ * [new tag]             1.1.2                   -> 1.1.2
+ * [new tag]             1.1.3                   -> 1.1.3
+ * [new tag]             1.1.4                   -> 1.1.4
+ * [new tag]             1.1.5                   -> 1.1.5
+ * [new tag]             1.1.6                   -> 1.1.6
+ * [new tag]             1.1.7                   -> 1.1.7
+ * [new tag]             1.1.8                   -> 1.1.8
+ * [new tag]             1.1.9                   -> 1.1.9
+ * [new tag]             1.2.0                   -> 1.2.0
+ * [new tag]             1.2.1                   -> 1.2.1
+ * [new tag]             1.2.2                   -> 1.2.2
+ * [new tag]             1.2.3                   -> 1.2.3
+ * [new tag]             1.2.4                   -> 1.2.4
+ * [new tag]             1.2.5                   -> 1.2.5
+ * [new tag]             1.2.6                   -> 1.2.6
+ * [new tag]             1.3.0                   -> 1.3.0
+ * [new tag]             1.3.1                   -> 1.3.1
+ * [new tag]             1.3.2                   -> 1.3.2
+ * [new tag]             1.3.3                   -> 1.3.3
+ * [new tag]             1.3.4                   -> 1.3.4
+ * [new tag]             1.3.5                   -> 1.3.5
+ * [new tag]             1.3.6                   -> 1.3.6
+ * [new tag]             1.3.7                   -> 1.3.7
+ * [new tag]             1.3.8                   -> 1.3.8
+ * [new tag]             1.3.9                   -> 1.3.9
+ * [new tag]             1.4.0                   -> 1.4.0
+ * [new tag]             1.4.1                   -> 1.4.1
+ * [new tag]             1.4.2                   -> 1.4.2
+ * [new tag]             1.4.3                   -> 1.4.3
+ * [new tag]             1.5.0                   -> 1.5.0
+ * [new tag]             1.5.1                   -> 1.5.1
+ * [new tag]             1.5.10                  -> 1.5.10
+ * [new tag]             1.5.11                  -> 1.5.11
+ * [new tag]             1.5.12                  -> 1.5.12
+ * [new tag]             1.5.13                  -> 1.5.13
+ * [new tag]             1.5.14                  -> 1.5.14
+ * [new tag]             1.5.2                   -> 1.5.2
+ * [new tag]             1.5.3                   -> 1.5.3
+ * [new tag]             1.5.4                   -> 1.5.4
+ * [new tag]             1.5.5                   -> 1.5.5
+ * [new tag]             1.5.6                   -> 1.5.6
+ * [new tag]             1.5.7                   -> 1.5.7
+ * [new tag]             1.5.8                   -> 1.5.8
+ * [new tag]             1.5.9                   -> 1.5.9
+ * [new tag]             1.6.0                   -> 1.6.0
+ * [new tag]             1.6.1                   -> 1.6.1
+ * [new tag]             1.6.10                  -> 1.6.10
+ * [new tag]             1.6.11                  -> 1.6.11
+ * [new tag]             1.6.12                  -> 1.6.12
+ * [new tag]             1.6.13                  -> 1.6.13
+ * [new tag]             1.6.14                  -> 1.6.14
+ * [new tag]             1.6.15                  -> 1.6.15
+ * [new tag]             1.6.16                  -> 1.6.16
+ * [new tag]             1.6.17                  -> 1.6.17
+ * [new tag]             1.6.2                   -> 1.6.2
+ * [new tag]             1.6.3                   -> 1.6.3
+ * [new tag]             1.6.4                   -> 1.6.4
+ * [new tag]             1.6.5                   -> 1.6.5
+ * [new tag]             1.6.6                   -> 1.6.6
+ * [new tag]             1.6.7                   -> 1.6.7
+ * [new tag]             1.6.8                   -> 1.6.8
+ * [new tag]             1.6.9                   -> 1.6.9
+ * [new tag]             1.7.0                   -> 1.7.0
+ * [new tag]             1.7.1                   -> 1.7.1
+ * [new tag]             1.7.2                   -> 1.7.2
+ * [new tag]             1.7.3                   -> 1.7.3
+ * [new tag]             1.7.4                   -> 1.7.4
+ * [new tag]             1.7.5                   -> 1.7.5
+ * [new tag]             1.7.6                   -> 1.7.6
+ * [new tag]             1.7.7                   -> 1.7.7
+ * [new tag]             1.8.0                   -> 1.8.0
+ * [new tag]             1.8.1                   -> 1.8.1
+ * [new tag]             1.8.2                   -> 1.8.2
+ * [new tag]             1.8.3                   -> 1.8.3
+ * [new tag]             1.8.4                   -> 1.8.4
+ * [new tag]             1.8.5                   -> 1.8.5
+ * [new tag]             1.8.6                   -> 1.8.6
+ * [new tag]             1.9.0                   -> 1.9.0
+ * [new tag]             1.9.1                   -> 1.9.1
+ * [new tag]             1.9.2                   -> 1.9.2
+ * [new tag]             1.9.3                   -> 1.9.3
+ * [new tag]             2.0.0                   -> 2.0.0
+ * [new tag]             2.0.1                   -> 2.0.1
+ * [new tag]             2.0.2                   -> 2.0.2
+ * [new tag]             2.0.3                   -> 2.0.3
+ * [new tag]             2.0.4                   -> 2.0.4
+ * [new tag]             2.0.5                   -> 2.0.5
+ * [new tag]             2.0.6                   -> 2.0.6
+ * [new tag]             2.1.0                   -> 2.1.0
+ * [new tag]             2.1.1                   -> 2.1.1
+ * [new tag]             2.1.10                  -> 2.1.10
+ * [new tag]             2.1.11                  -> 2.1.11
+ * [new tag]             2.1.12                  -> 2.1.12
+ * [new tag]             2.1.13                  -> 2.1.13
+ * [new tag]             2.1.14                  -> 2.1.14
+ * [new tag]             2.1.15                  -> 2.1.15
+ * [new tag]             2.1.16                  -> 2.1.16
+ * [new tag]             2.1.2                   -> 2.1.2
+ * [new tag]             2.1.3                   -> 2.1.3
+ * [new tag]             2.1.4                   -> 2.1.4
+ * [new tag]             2.1.5                   -> 2.1.5
+ * [new tag]             2.1.6                   -> 2.1.6
+ * [new tag]             2.1.7                   -> 2.1.7
+ * [new tag]             2.1.8                   -> 2.1.8
+ * [new tag]             2.1.9                   -> 2.1.9
+ * [new tag]             2.2.0                   -> 2.2.0
+ * [new tag]             2.2.1                   -> 2.2.1
+ * [new tag]             2.2.10                  -> 2.2.10
+ * [new tag]             2.2.11                  -> 2.2.11
+ * [new tag]             2.2.12                  -> 2.2.12
+ * [new tag]             2.2.13                  -> 2.2.13
+ * [new tag]             2.2.14                  -> 2.2.14
+ * [new tag]             2.2.15                  -> 2.2.15
+ * [new tag]             2.2.16                  -> 2.2.16
+ * [new tag]             2.2.17                  -> 2.2.17
+ * [new tag]             2.2.2                   -> 2.2.2
+ * [new tag]             2.2.3                   -> 2.2.3
+ * [new tag]             2.2.4                   -> 2.2.4
+ * [new tag]             2.2.5                   -> 2.2.5
+ * [new tag]             2.2.6                   -> 2.2.6
+ * [new tag]             2.2.7                   -> 2.2.7
+ * [new tag]             2.2.8                   -> 2.2.8
+ * [new tag]             2.2.9                   -> 2.2.9
+ * [new tag]             2.3.0                   -> 2.3.0
+ * [new tag]             2.4.0                   -> 2.4.0
+ * [new tag]             2.4.1                   -> 2.4.1
+ * [new tag]             2.4.10                  -> 2.4.10
+ * [new tag]             2.4.11                  -> 2.4.11
+ * [new tag]             2.4.12                  -> 2.4.12
+ * [new tag]             2.4.13                  -> 2.4.13
+ * [new tag]             2.4.14                  -> 2.4.14
+ * [new tag]             2.4.15                  -> 2.4.15
+ * [new tag]             2.4.16                  -> 2.4.16
+ * [new tag]             2.4.2                   -> 2.4.2
+ * [new tag]             2.4.3                   -> 2.4.3
+ * [new tag]             2.4.4                   -> 2.4.4
+ * [new tag]             2.4.5                   -> 2.4.5
+ * [new tag]             2.4.6                   -> 2.4.6
+ * [new tag]             2.4.7                   -> 2.4.7
+ * [new tag]             2.4.8                   -> 2.4.8
+ * [new tag]             2.4.9                   -> 2.4.9
+ * [new tag]             2.5.0                   -> 2.5.0
+ * [new tag]             2.5.1                   -> 2.5.1
+ * [new tag]             2.5.10                  -> 2.5.10
+ * [new tag]             2.5.11                  -> 2.5.11
+ * [new tag]             2.5.12                  -> 2.5.12
+ * [new tag]             2.5.2                   -> 2.5.2
+ * [new tag]             2.5.3                   -> 2.5.3
+ * [new tag]             2.5.4                   -> 2.5.4
+ * [new tag]             2.5.5                   -> 2.5.5
+ * [new tag]             2.5.6                   -> 2.5.6
+ * [new tag]             2.5.7                   -> 2.5.7
+ * [new tag]             2.5.8                   -> 2.5.8
+ * [new tag]             2.5.9                   -> 2.5.9
+ * [new tag]             2.6.0                   -> 2.6.0
+ * [new tag]             2.6.1                   -> 2.6.1
+ * [new tag]             2.6.2                   -> 2.6.2
+ * [new tag]             2.7.0                   -> 2.7.0
+ * [new tag]             2.7.1                   -> 2.7.1
+ * [new tag]             2.7.2                   -> 2.7.2
+ * [new tag]             2.7.3                   -> 2.7.3
+ * [new tag]             2.7.4                   -> 2.7.4
+ * [new tag]             2.7.5                   -> 2.7.5
+ * [new tag]             2.7.6                   -> 2.7.6
+ * [new tag]             2.7.7                   -> 2.7.7
+ * [new tag]             3.0.0                   -> 3.0.0
+ * [new tag]             3.0.1                   -> 3.0.1
+ * [new tag]             3.0.10                  -> 3.0.10
+ * [new tag]             3.0.11                  -> 3.0.11
+ * [new tag]             3.0.2                   -> 3.0.2
+ * [new tag]             3.0.3                   -> 3.0.3
+ * [new tag]             3.0.4                   -> 3.0.4
+ * [new tag]             3.0.5                   -> 3.0.5
+ * [new tag]             3.0.6                   -> 3.0.6
+ * [new tag]             3.0.7                   -> 3.0.7
+ * [new tag]             3.0.8                   -> 3.0.8
+ * [new tag]             3.0.9                   -> 3.0.9
+ * [new tag]             3.1.0                   -> 3.1.0
+ * [new tag]             3.1.1                   -> 3.1.1
+ * [new tag]             3.1.10                  -> 3.1.10
+ * [new tag]             3.1.11                  -> 3.1.11
+ * [new tag]             3.1.12                  -> 3.1.12
+ * [new tag]             3.1.2                   -> 3.1.2
+ * [new tag]             3.1.3                   -> 3.1.3
+ * [new tag]             3.1.4                   -> 3.1.4
+ * [new tag]             3.1.5                   -> 3.1.5
+ * [new tag]             3.1.6                   -> 3.1.6
+ * [new tag]             3.1.7                   -> 3.1.7
+ * [new tag]             3.1.8                   -> 3.1.8
+ * [new tag]             3.1.9                   -> 3.1.9
+ * [new tag]             3.2.0                   -> 3.2.0
+ * [new tag]             3.2.1                   -> 3.2.1
+ * [new tag]             3.2.10                  -> 3.2.10
+ * [new tag]             3.2.11                  -> 3.2.11
+ * [new tag]             3.2.12                  -> 3.2.12
+ * [new tag]             3.2.13                  -> 3.2.13
+ * [new tag]             3.2.14                  -> 3.2.14
+ * [new tag]             3.2.15                  -> 3.2.15
+ * [new tag]             3.2.16                  -> 3.2.16
+ * [new tag]             3.2.17                  -> 3.2.17
+ * [new tag]             3.2.2                   -> 3.2.2
+ * [new tag]             3.2.3                   -> 3.2.3
+ * [new tag]             3.2.4                   -> 3.2.4
+ * [new tag]             3.2.5                   -> 3.2.5
+ * [new tag]             3.2.6                   -> 3.2.6
+ * [new tag]             3.2.7                   -> 3.2.7
+ * [new tag]             3.2.8                   -> 3.2.8
+ * [new tag]             3.2.9                   -> 3.2.9
+ * [new tag]             3.3.0                   -> 3.3.0
+ * [new tag]             3.3.1                   -> 3.3.1
+ * [new tag]             3.3.10                  -> 3.3.10
+ * [new tag]             3.3.11                  -> 3.3.11
+ * [new tag]             3.3.12                  -> 3.3.12
+ * [new tag]             3.3.13                  -> 3.3.13
+ * [new tag]             3.3.14                  -> 3.3.14
+ * [new tag]             3.3.15                  -> 3.3.15
+ * [new tag]             3.3.16                  -> 3.3.16
+ * [new tag]             3.3.2                   -> 3.3.2
+ * [new tag]             3.3.3                   -> 3.3.3
+ * [new tag]             3.3.4                   -> 3.3.4
+ * [new tag]             3.3.5                   -> 3.3.5
+ * [new tag]             3.3.6                   -> 3.3.6
+ * [new tag]             3.3.7                   -> 3.3.7
+ * [new tag]             3.3.8                   -> 3.3.8
+ * [new tag]             3.3.9                   -> 3.3.9
+ * [new tag]             3.4.0                   -> 3.4.0
+ * [new tag]             3.4.1                   -> 3.4.1
+ * [new tag]             3.4.10                  -> 3.4.10
+ * [new tag]             3.4.11                  -> 3.4.11
+ * [new tag]             3.4.2                   -> 3.4.2
+ * [new tag]             3.4.3                   -> 3.4.3
+ * [new tag]             3.4.4                   -> 3.4.4
+ * [new tag]             3.4.5                   -> 3.4.5
+ * [new tag]             3.4.6                   -> 3.4.6
+ * [new tag]             3.4.7                   -> 3.4.7
+ * [new tag]             3.4.8                   -> 3.4.8
+ * [new tag]             3.4.9                   -> 3.4.9
+ * [new tag]             3.5.0                   -> 3.5.0
+ * [new tag]             3.5.1                   -> 3.5.1
+ * [new tag]             3.5.10                  -> 3.5.10
+ * [new tag]             3.5.2                   -> 3.5.2
+ * [new tag]             3.5.3                   -> 3.5.3
+ * [new tag]             3.5.4                   -> 3.5.4
+ * [new tag]             3.5.5                   -> 3.5.5
+ * [new tag]             3.5.6                   -> 3.5.6
+ * [new tag]             3.5.7                   -> 3.5.7
+ * [new tag]             3.5.8                   -> 3.5.8
+ * [new tag]             3.5.9                   -> 3.5.9
+ * [new tag]             3.6.0                   -> 3.6.0
+ * [new tag]             3.6.1                   -> 3.6.1
+ * [new tag]             3.6.10                  -> 3.6.10
+ * [new tag]             3.6.11                  -> 3.6.11
+ * [new tag]             3.6.12                  -> 3.6.12
+ * [new tag]             3.6.13                  -> 3.6.13
+ * [new tag]             3.6.14                  -> 3.6.14
+ * [new tag]             3.6.15                  -> 3.6.15
+ * [new tag]             3.6.16                  -> 3.6.16
+ * [new tag]             3.6.17                  -> 3.6.17
+ * [new tag]             3.6.18                  -> 3.6.18
+ * [new tag]             3.6.2                   -> 3.6.2
+ * [new tag]             3.6.3                   -> 3.6.3
+ * [new tag]             3.6.4                   -> 3.6.4
+ * [new tag]             3.6.5                   -> 3.6.5
+ * [new tag]             3.6.6                   -> 3.6.6
+ * [new tag]             3.6.7                   -> 3.6.7
+ * [new tag]             3.6.8                   -> 3.6.8
+ * [new tag]             3.6.9                   -> 3.6.9
+HEAD is now at 8be5846c5 Merge pull request #14351 from Homebrew/dependabot/bundler/Library/Homebrew/rubocop-1.43.0
+==> Tapping homebrew/core
+From https://github.com/Homebrew/homebrew-core
+ * [new branch]              master     -> origin/master
+HEAD is now at 4aa2c979897 cargo-deny: update 0.13.7 bottle.
+Warning: /opt/homebrew/bin is not in your PATH.
+  Instructions on how to configure your shell for Homebrew
+  can be found in the 'Next steps' section below.
+==> Installation successful!
+
+==> Homebrew has enabled anonymous aggregate formulae and cask analytics.
+Read the analytics documentation (and how to opt-out) here:
+  https://docs.brew.sh/Analytics
+No analytics data has been sent yet (nor will any be during this install run).
+
+==> Homebrew is run entirely by unpaid volunteers. Please consider donating:
+  https://github.com/Homebrew/brew#donations
+
+==> Next steps:
+- Run these three commands in your terminal to add Homebrew to your PATH:
+    echo '# Set PATH, MANPATH, etc., for Homebrew.' >> /Users/danielp/.zprofile
+    echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/danielp/.zprofile
+    eval "$(/opt/homebrew/bin/brew shellenv)"
+- Run brew help to get started
+- Further documentation:
+    https://docs.brew.sh
+
+
+Updating Homebrew formulae ...
+Already up-to-date.
+==> Tapping homebrew/bundle
+Cloning into '/opt/homebrew/Library/Taps/homebrew/homebrew-bundle'...
+Tapped 1 command (98 files, 2.0MB).
+Tapping homebrew/services
+Tapping homebrew/cask-fonts
+Installing git
+Installing zsh
+Installing tree
+Installing node
+Installing rbenv
+Installing ruby-build
+Installing python
+Tapping adoptopenjdk/openjdk
+Installing adoptopenjdk8
+==> Downloading https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u292-b10/OpenJDK8U-jdk_x64_mac_hotspot_8u292b10.pkg
+==> Downloading from https://objects.githubusercontent.com/github-production-release-asset-2e65be/140418865/bbad4180-a2e0-11eb-8274-f16f6a90729c?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230111T183837Z&X-Amz-Expires=300&X-Amz-Signature=5eb5dde20e5e963af47c3d52874658e68cd8811d230fd1e81cab6aec1bea7706&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=140418865&response-content-disposition=attachment%3B%20filename%3DOpenJDK8U-jdk_x64_mac_hotspot_8u292b10.pkg&response-content-type=application%2Foctet-stream
+==> Installing Cask adoptopenjdk8
+==> Running installer for adoptopenjdk8; your password may be necessary.
+Package installers may write to any location; options such as `--appdir` are ignored.
+installer: This package requires Rosetta 2 to be installed.
+                Please install Rosetta 2 and then try again.
+                    `sudo softwareupdate --install-rosetta`
+
+installer: Error - AdoptOpenJDK can’t be installed on this computer.
+Error: Failure while executing; `/usr/bin/sudo -E -- /usr/bin/env LOGNAME=danielp USER=danielp USERNAME=danielp /usr/sbin/installer -pkg /opt/homebrew/Caskroom/adoptopenjdk8/8,292:b10/OpenJDK8U-jdk_x64_mac_hotspot_8u292b10.pkg -target /` exited with 1. Here's the output:
+installer: This package requires Rosetta 2 to be installed.
+                Please install Rosetta 2 and then try again.
+                    `sudo softwareupdate --install-rosetta`
+
+installer: Error - AdoptOpenJDK can’t be installed on this computer.
+==> Purging files for version 8,292:b10 of Cask adoptopenjdk8
+Installing adoptopenjdk8 has failed!
+Installing postgresql@14
+Tapping mongodb/brew
+Installing mongodb-community
+Installing mongodb-compass
+Installing font-open-dyslexic
+Homebrew Bundle failed! 1 Brewfile dependency failed to install.
+
+Installing Oh-My-Zsh ...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+ 77 17140   77 13262    0     0  25614      0 --:--:-- --:--:-- --:--:-- 25614100 17140  100 17140    0     0  32998      0 --:--:-- --:--:-- --:--:-- 3787k
+Cloning Oh My Zsh...
+From https://github.com/ohmyzsh/ohmyzsh
+ * [new branch]      master     -> origin/master
+Already on 'master'
+branch 'master' set up to track 'origin/master'.
+/Users/danielp
+
+Looking for an existing zsh config...
+Found ~/.zshrc. Backing up to /Users/danielp/.zshrc.pre-oh-my-zsh
+Using the Oh My Zsh template file and adding it to ~/.zshrc.
+
+         __                                     __   
+  ____  / /_     ____ ___  __  __   ____  _____/ /_  
+ / __ \/ __ \   / __ `__ \/ / / /  /_  / / ___/ __ \ 
+/ /_/ / / / /  / / / / / / /_/ /    / /_(__  ) / / / 
+\____/_/ /_/  /_/ /_/ /_/\__, /    /___/____/_/ /_/  
+                        /____/                       ....is now installed!
+
+
+Before you scream Oh My Zsh! look over the `.zshrc` file to select plugins, themes, and options.
+
+• Follow us on Twitter: https://twitter.com/ohmyzsh
+• Join our Discord community: https://discord.gg/ohmyzsh
+• Get stickers, t-shirts, coffee mugs and more: https://shop.planetargon.com/collections/oh-my-zsh
+
+Run zsh to try it out.
+
+Installing GUI apps
+==> Downloading https://dl.google.com/chrome/mac/universal/stable/GGRO/googlechrome.dmg
+Warning: No checksum defined for cask 'google-chrome', skipping verification.
+==> Installing Cask google-chrome
+==> Moving App 'Google Chrome.app' to '/Applications/Google Chrome.app'
+🍺  google-chrome was successfully installed!
+==> Downloading https://github.com/atom/atom/releases/download/v1.63.1/atom-mac.zip
+==> Downloading from https://objects.githubusercontent.com/github-production-release-asset-2e65be/3228505/38ec70b5-99fa-48b5-a8d0-8eba96e1e573?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230111T184436Z&X-Amz-Expires=300&X-Amz-Signature=6683f529f3fbb3198b27d277e1be8b4250ea21302456cb3b345f4bf3ec734a52&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=3228505&response-content-disposition=attachment%3B%20filename%3Datom-mac.zip&response-content-type=application%2Foctet-stream
+==> Installing Cask atom
+==> Moving App 'Atom.app' to '/Applications/Atom.app'
+==> Linking Binary 'apm' to '/opt/homebrew/bin/apm'
+==> Linking Binary 'atom.sh' to '/opt/homebrew/bin/atom'
+🍺  atom was successfully installed!
+/opt/homebrew/bin/apm: line 42: /Applications/Atom.app/Contents/Resources/app/apm/bin/node: Bad CPU type in executable
+/Applications/Slack.app/
+==> Downloading https://github.com/Kong/insomnia/releases/download/core%402022.7.1/Insomnia.Core-2022.7.1.dmg
+==> Downloading from https://objects.githubusercontent.com/github-production-release-asset-2e65be/56899284/803ac303-3cc1-4564-aa09-c803086b0d5b?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230111T184545Z&X-Amz-Expires=300&X-Amz-Signature=d0c1aab7fcdd9db23895ab9229c775a4e0e5e545bb6e2796d6bc32ce0f33fa20&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=56899284&response-content-disposition=attachment%3B%20filename%3DInsomnia.Core-2022.7.1.dmg&response-content-type=application%2Foctet-stream
+==> Installing Cask insomnia
+==> Moving App 'Insomnia.app' to '/Applications/Insomnia.app'
+🍺  insomnia was successfully installed!
+==> Downloading https://eggerapps-downloads.s3.amazonaws.com/postico-1.5.21.zip
+==> Installing Cask postico
+==> Moving App 'Postico.app' to '/Applications/Postico.app'
+🍺  postico was successfully installed!
+==> Downloading https://update.code.visualstudio.com/1.74.3/darwin-arm64/stable
+==> Downloading from https://az764295.vo.msecnd.net/stable/97dec172d3256f8ca4bfb2143f3f76b503ca0534/VSCode-darwin-arm64.zip
+==> Installing Cask visual-studio-code
+==> Moving App 'Visual Studio Code.app' to '/Applications/Visual Studio Code.app'
+==> Linking Binary 'code' to '/opt/homebrew/bin/code'
+🍺  visual-studio-code was successfully installed!
+Installing extensions...
+Installing extension 'ms-vsliveshare.vsliveshare'...
+(node:17808) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `Electron --trace-deprecation ...` to show where the warning was created)
+Extension 'ms-vsliveshare.vsliveshare' v1.0.5797 was successfully installed.
+
+Configuring Ruby ...
+To follow progress, use 'tail -f /var/folders/y6/91nsr6vd4vl3wh1z8r1cn7940000gn/T/ruby-build.20230111184725.17884.log' or pass --verbose
+Downloading openssl-1.1.1s.tar.gz...
+-> https://dqw8nmjcqpjn7.cloudfront.net/c5ac01e760ee6ff0dab61d6b2bbd30146724d063eb322180c6f18a6f74e4b6aa
+Installing openssl-1.1.1s...
+Installed openssl-1.1.1s to /Users/danielp/.rbenv/versions/2.6.5
+
+Downloading ruby-2.6.5.tar.bz2...
+-> https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.5.tar.bz2
+Installing ruby-2.6.5...
+
+WARNING: ruby-2.6.5 is past its end of life and is now unsupported.
+It no longer receives bug fixes or critical security updates.
+
+ruby-build: using readline from homebrew
+
+BUILD FAILED (macOS 12.5 using ruby-build 20221225)
+
+Inspect or clean up the working tree at /var/folders/y6/91nsr6vd4vl3wh1z8r1cn7940000gn/T/ruby-build.20230111184725.17884.HsRqhS
+Results logged to /var/folders/y6/91nsr6vd4vl3wh1z8r1cn7940000gn/T/ruby-build.20230111184725.17884.log
+
+Last 10 log lines:
+transform_mjit_header: SKIPPED to transform __inline_isinff
+transform_mjit_header: SKIPPED to transform __inline_isfinitel
+transform_mjit_header: SKIPPED to transform __inline_isfinited
+transform_mjit_header: SKIPPED to transform __inline_isfinitef
+transform_mjit_header: SKIPPED to transform __darwin_fd_clr
+transform_mjit_header: SKIPPED to transform __darwin_fd_set
+transform_mjit_header: SKIPPED to transform __darwin_fd_isset
+transform_mjit_header: SKIPPED to transform __darwin_check_fd_set
+transform_mjit_header: SKIPPED to transform __sputc
+ln -sf ../../../.ext/include/-darwin21/rb_mjit_min_header-2.6.5.h include/ruby-2.6.0/-darwin21/rb_mjit_min_header-2.6.5.h
+rbenv: version `2.6.5' not installed
+rbenv: version `2.6.5' not installed
+ERROR:  While executing gem ... (Gem::FilePermissionError)
+    You don't have write permissions for the /Library/Ruby/Gems/2.6.0 directory.
+Updating rubygems-update
+ERROR:  While executing gem ... (Gem::FilePermissionError)
+    You don't have write permissions for the /Library/Ruby/Gems/2.6.0 directory.
+Updating installed gems
+Updating bundler
+
+Skipping rdoc generation when we install a gem
+
+Setting Atom as default text editor ...
+
+Rebinding # to the § key
+
+Globally ignoring .DS_Store files
+
+Creating Postgres database under current user name
+
+Installing IntelliJ
+==> Downloading https://download.jetbrains.com/idea/ideaIC-2022.3.1-aarch64.dmg
+==> Downloading from https://download-cdn.jetbrains.com/idea/ideaIC-2022.3.1-aarch64.dmg
+==> Installing Cask intellij-idea-ce
+==> Moving App 'IntelliJ IDEA CE.app' to '/Applications/IntelliJ IDEA CE.app'
+🍺  intellij-idea-ce was successfully installed!
+
+Checking for unsuccessful installs
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  3955  100  3955    0     0  14340      0 --:--:-- --:--:-- --:--:-- 14487
+✅ git
+✅ zsh
+✅ node
+✅ rbenv
+✅ ruby-build
+✅ postgres
+✅ java
+✅ mongod
+laptop_install_test: line 53: mongo: command not found
+✅ tree
+✅ pip3
+🚫 rbenv ruby is NOT installed!!
+✅ google chrome
+✅ atom
+✅ slack
+✅ insomnia
+✅ intellij idea ce
+✅ mongodb compass
+✅ postico
+✅ visual studio code
+✅ Python path is correct.
+✅ LiveShare extension installed.
+/opt/homebrew/bin/apm: line 42: /Applications/Atom.app/Contents/Resources/app/apm/bin/node: Bad CPU type in executable
+message
+🚫 Teletype extension is NOT installed.
+
+⚠️ Script has finished - please scroll the lines above and bring any errors to an instructor's attention during Meet Your Cohort ⚠️

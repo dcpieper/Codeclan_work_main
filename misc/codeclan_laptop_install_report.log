@@ -1,0 +1,76 @@
+✅ git
+git version info:
+git version 2.39.0
+
+✅ zsh
+zsh version info:
+zsh 5.9 (arm-apple-darwin21.3.0)
+
+✅ node
+node version info:
+v19.4.0
+
+✅ rbenv
+rbenv version info:
+rbenv 1.2.0
+
+✅ ruby-build
+ruby-build version info:
+ruby-build 20221225
+
+✅ postgres
+postgres version info:
+postgres (PostgreSQL) 14.6 (Homebrew)
+
+✅ java
+java version info:
+The operation couldn’t be completed. Unable to locate a Java Runtime. Please visit http://www.java.com for information on installing Java.
+
+✅ mongod
+mongod version info:
+
+
+✅ tree
+tree version info:
+Version unknown
+
+✅ pip3
+pip3 version info:
+Version unknown
+
+🚫 rbenv ruby is NOT installed!!
+✅ google chrome
+google version info:
+Version unknown
+
+✅ atom
+atom version info:
+Version unknown
+
+✅ slack
+slack version info:
+Version unknown
+
+✅ insomnia
+insomnia version info:
+Version unknown
+
+✅ intellij idea ce
+intellij version info:
+Version unknown
+
+✅ mongodb compass
+mongodb version info:
+Version unknown
+
+✅ postico
+postico version info:
+Version unknown
+
+✅ visual studio code
+visual version info:
+Version unknown
+
+✅ Python
+✅ LiveShare extension installed.
+🚫 Teletype extension is NOT installed.
