@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+}
+
+body > header {
+    background-color: rgb(30, 118, 232);
+    color: white;
+    margin: 0;
+    padding: 10px;
+}
+
+body > header > nav > ul {
+    list-style-type: none;
+}
+
+body > main > article {
+    width: 70%;
+    margin: auto;
+}
+
+body > main > footer {
+    width: 70%;
+    margin: auto;
+}
+
+body > footer > p {
+    padding:16px;
+    color: white;
+    text-align: center;
+    background-color: rgb(30, 118, 232);
+    margin: 0;
+}
+
+.submit-button {
+    float: right;
+    margin: 0;
+}
