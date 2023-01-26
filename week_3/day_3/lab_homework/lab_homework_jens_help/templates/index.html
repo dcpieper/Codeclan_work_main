@@ -1,0 +1,17 @@
+<html>
+    <li class="navLink"><a href="/orders">Home</a></li>
+    <head>
+        <title> Dan's Gaming Merch</title>
+    </head>
+    <body>
+        <h1>List of Customer Orders</h1>
+        {% for order in orders %}
+        <div>
+            <p>
+                {{ order.customer_name }}: <b>{{ order.order_date }}, {{order.title}}, {{ order.quantity }}</b> 
+            </p>
+            <a href="/orders/{{orders.index(order)}}">Show Order</a>
+        </div>
+        {% endfor %}
+    </body>
+</html>
