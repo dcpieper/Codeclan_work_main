@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+        <h1>Dan's Library List of Books</h1>
+
+        <form action='/books' method='post'>
+            <label for="title">Title of Book</label>
+            <input type="text" name="title" id="title">
+            <label for="author">Author of Book</label>
+            <input type="text" name="author" id="author">
+            <label for="genre">Genre of Book</label>
+            <input type="text" name="genre" id="genre">
+            <input type="submit" value="Add Book">
+        </form>
+        {% for book in books %}
+        <div>
+            <p>
+                Name: {{ book.title }}
+                <br>
+                Author: {{ book.author }} 
+                <br>
+                Genre: {{ book.genre }}
+                <br>
+                {% if book.checked_out %}
+                <span>Available: &#10060;</span>
+                {% else %}
+                <span>Available: &#9989;</span>
+                {% endif %}
+            </p>
+            <a href="/books/{{books.index(book)}}">More Info</a>
+            <!-- <a href="/books/delete/{{books.index(book)}}">Delete Book</a> -->
+            <form action="/books/delete/<int:index>" method="post">
+                <input type='submit' value="delete">
+            </form>
+        </div>
+        {% endfor %}
+{% endblock %}

@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <h1>You have chosen: {{ books.title }}</h1>
+    <div>
+        <p>
+            Name: {{ books.title }} 
+            <br>
+            Author: {{ books.author }}
+            <br>
+            Genre: {{ books.genre }}
+            <br> 
+            {% if books.checked_out %}
+            <span>Available: &#10060;</span>
+            {% else %}
+            <span>Available: &#9989;</span>
+            {% endif %}
+        </p>
+    </div>
+
+{% endblock %}
