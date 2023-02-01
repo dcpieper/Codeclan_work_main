@@ -12,7 +12,7 @@ def add_book():
     book_title = request.form['title']
     book_author = request.form['author']
     book_genre = request.form['genre']
-    new_book = Book(book_title, book_author, book_genre)
+    new_book = Book(book_title, book_author, book_genre, False)
     add_new_book(new_book)
     print(books)
     return render_template('index.html', title='Home', books=books)
@@ -22,8 +22,8 @@ def one_book(index):
     show_book = books[int(index)]
     return render_template('show_book.html', books=show_book)
 
-@app.route('/books/delete/<int:index>', methods=['POST'])
+@app.route('/books/<index>', methods=['POST'])
 def delete_book(index):
-        delete_a_book(index)
-        return render_template('index.html', title='Home', index=index)
+        delete_a_book(int(index))
+        return render_template('index.html', title='Home', books=books)
 

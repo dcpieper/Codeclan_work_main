@@ -9,4 +9,5 @@ def add_new_book(new_book):
     books.append(new_book)
 
 def delete_a_book(index):
-    del books[index]
+    books.remove(books[int(index-1)])
+
