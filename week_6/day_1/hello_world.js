@@ -28,5 +28,25 @@ const dog = {
 
 // console.log(dog.favFoods)
 
+// let isRaining = -1;
 
+// if (isRaining) {
+//     console.log("Take an umbrella");
+// } else {
+//     console.log("No need for umbrella");
+// }
+
+const fruit = 'Orange';
+
+if (fruit === 'Apple'){
+    console.log('Mmmm healthy')
+} else if (fruit === 'Orange'){
+    console.log('Still tasty');
+}
+
+// console.log(5 === '5');
+
+const result = (1 + 1 === 2) || (1 + 1 === 4);
+
+console.log(result)
 
