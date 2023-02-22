@@ -1,0 +1,31 @@
+.app {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.FilmContainer {
+  text-align: left;
+  border: 2px solid rgb(0, 0, 0);
+  margin: 60px;
+  padding: 20px;
+  background-color: rgba(128, 128, 128, 0.305);
+}
+
+.ViewMore {
+  width: 260px;
+  border: 2px solid rgb(69, 83, 228);
+  padding: 15px;
+  margin: 5px;
+  background-color: rgba(81, 81, 216, 0.375);
+}
+
+.Film {
+  padding: 10px;
+}
+
+.link {
+  text-decoration: none;
+}
+
