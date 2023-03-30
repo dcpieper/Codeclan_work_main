@@ -1,10 +1,20 @@
 import React from 'react';
 
-const PokemonItem = ({name}) => {
+const PokemonItem = ({name, getPokemonData, url}) => {
+
+    const handleClick = function() {
+        getPokemonData(url)
+    }
 
 
 
-    return <h3>{name}</h3>
+    return (
+        <div>
+            <li>
+                {<a onClick={handleClick}>{name}</a>}
+            </li>
+        </div>
+    )
     
 }
 

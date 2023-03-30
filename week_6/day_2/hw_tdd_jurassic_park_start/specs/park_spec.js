@@ -74,11 +74,39 @@ describe('Park', function() {
   });
 
   it('should be able to calculate the total number of visitors per day', function(){
-    
+    park.addDinosaur(trex1);
+    park.addDinosaur(trex2);
+    park.addDinosaur(trex3);
+    park.addDinosaur(velociraptor1)
+    park.addDinosaur(velociraptor2)
+    park.addDinosaur(diplodocus)
+    park.addDinosaur(gallimimus)
+
+    const actual = park.calculateTotalVisitorsPerDay()
+    assert.strictEqual(actual, 229);
   });
 
   it('should be able to calculate the total number of visitors per year');
+  park.addDinosaur(trex1);
+  park.addDinosaur(trex2);
+  park.addDinosaur(trex3);
+  park.addDinosaur(velociraptor1)
+  park.addDinosaur(velociraptor2)
+  park.addDinosaur(diplodocus)
+  park.addDinosaur(gallimimus)
 
+  const actual = calculateTotalVisitorsPerYear()
+  assert.strictEqual(actual,)
   it('should be able to calculate total revenue for one year');
+  park.addDinosaur(trex1);
+  park.addDinosaur(trex2);
+  park.addDinosaur(trex3);
+  park.addDinosaur(velociraptor1)
+  park.addDinosaur(velociraptor2)
+  park.addDinosaur(diplodocus)
+  park.addDinosaur(gallimimus)
+
+  const actual = park.calculateTotalYearlyRevenue()
+  assert.strictEqual(actual, )
 
 });

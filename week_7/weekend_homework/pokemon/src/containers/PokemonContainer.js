@@ -1,35 +1,37 @@
 import {useState, useEffect} from 'react';
-import PokemonSelector from '../components/PokemonSelector';
-import PokemonItem from '../components/PokemonItem';
+import PokemonList from '../components/PokemonList.js';
 import PokemonDetail from '../components/PokemonDetail'
 
-const PokemonContainer = () => {
-    const [selectedPokemon, setSelectedPokemon] = useState([])
-    const [selectedPokemonUrl, setSelectedPokemonUrl] = useState('')
+const PokemonContainer = ({pokemon}) => {
+    
+    const [selectedPokemon, setSelectedPokemon] = useState(null);
+    // const [pokemon, setPokemon] = useState([])
 
-    useEffect(() => {
-        getPokemon()
-    }, [])
-
-    const getPokemon = () => {
-        fetch('https://pokeapi.co/api/v2/pokemon?&limit=1279')
-        .then(res => res.json())
-        .then(pokemonData => setSelectedPokemon(pokemonData.results))
+    const getPokemonData = (url) => {
+        fetch(url)
+        .then(response => response.json())
+        .then(pokemonUrlData => setSelectedPokemon(pokemonUrlData))
     }
 
-    const handlePokemonSelected = url => {
-        setSelectedPokemonUrl(url)
-    }
+    // useEffect(() => {
+    //     getPokemon()
+    // }, [])
 
-    const onPokemonClicked = function(pokemon){
-        setSelectedPokemon(pokemon)
-    }
+    // const getPokemon = () => {
+    //     fetch('https://pokeapi.co/api/v2/pokemon?&limit=9')
+    //     .then(res => res.json())
+    //     .then(pokemonData => setPokemon(pokemonData.results))
+    // }
+
+    // const handleSelectChange = event => {
+    //     getPokemon(event.target.value)
+    // }
+
 
     return (
         <div className='main-container'>
-            <PokemonSelector pokemon={selectedPokemon} onPokemonSelected={handlePokemonSelected}/>
-            {selectedPokemon ? 
-            <PokemonDetail pokemon={selectedPokemon}/> : null}
+            <PokemonList pokemon={pokemon} getPokemonData={getPokemonData}/>
+            <PokemonDetail selectedPokemon={selectedPokemon}/>
         </div>
     )
 }

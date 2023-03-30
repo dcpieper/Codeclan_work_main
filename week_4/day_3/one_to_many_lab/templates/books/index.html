@@ -5,9 +5,10 @@
 {% for book in all_books %}
     <div class="book">
         <div class="content">
-            {{ book.author.first_name }} {{ book.author.last_name }}
+            {{ book.author.first_name }} {{ book.author.last_name }} <br>
+            {{ book.title }}
             <div class="description">
-                <a href="/books/{{book.id}}">{{book.description}}</a>
+                <a href="/books/{{book.id}}">{{book.description}}</a><br>
                 <span class="genre">{{ book.genre }}</span>
             </div>
             <div class="buttons">

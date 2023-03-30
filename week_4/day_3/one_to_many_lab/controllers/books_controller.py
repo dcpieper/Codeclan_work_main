@@ -20,10 +20,11 @@ def new_book():
 @books_blueprint.route("/books", methods=['POST'])
 def create_book():
     title = request.form['title']
-    author_id = request.form['author_id']
+    author  = author_repository.select(request.form['author_id'])
+    # author = request.form['author']
     genre = request.form['genre']
     description = request.form['description']
-    author = author_repository.select(author_id)
+    # author  = author_repository.select(request.form['author_id'])
     book = Book(title, author, genre, description)
     book_repository.save(book)
     return redirect('/books')
@@ -42,10 +43,11 @@ def edit_book(id):
 @books_blueprint.route('/books/<id>', methods=['POST'])
 def update_book(id):
     title = request.form['title']
-    author_id = request.form['author_id']
+    author  = author_repository.select(request.form['author_id'])
+    # author = request.form['author']
     genre = request.form['genre']
     description = request.form['description']
-    author = author_repository.select(author_id)
+    # author = author_repository.select(author)
     book = Book(title, author, genre, description, id)
     book_repository.update(book)
     return redirect('/books')
